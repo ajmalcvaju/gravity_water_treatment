@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#103B66"/>
+      <stop offset="60%" stop-color="#087CC1"/>
+      <stop offset="100%" stop-color="#28C5D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#aboutGrad)"/>
+  
+  <!-- Subtle background grid lines -->
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+  </g>
+
+  <!-- Technical Engineering & Water Lab Illustration -->
+  <g transform="translate(100, 60)">
+    <!-- Water Testing Beaker / Flask with Pure Water -->
+    <path d="M 120,80 L 150,80 L 180,180 Q 190,210 160,230 L 110,230 Q 80,210 90,180 Z" fill="#28C5D7" opacity="0.3" stroke="#FFFFFF" stroke-width="3"/>
+    <ellipse cx="135" cy="205" rx="35" ry="12" fill="#FFFFFF" opacity="0.5"/>
+    <text x="135" y="160" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">WATER LAB</text>
+    <text x="135" y="178" font-family="'Inter', sans-serif" font-size="10" fill="#E0F2FE" text-anchor="middle">TEST &amp; ANALYZE</text>
+
+    <!-- Industrial Plant Representation -->
+    <rect x="260" y="60" width="380" height="260" rx="16" fill="#0A2540" opacity="0.8" stroke="#38BDF8" stroke-width="2"/>
+    
+    <!-- 2 FRP Columns -->
+    <rect x="290" y="100" width="40" height="180" rx="8" fill="#0284C7"/>
+    <rect x="345" y="100" width="40" height="180" rx="8" fill="#0369A1"/>
+    
+    <!-- Horizontal RO tubes -->
+    <rect x="410" y="110" width="180" height="28" rx="14" fill="#CBD5E1"/>
+    <rect x="410" y="150" width="180" height="28" rx="14" fill="#CBD5E1"/>
+    <rect x="410" y="190" width="180" height="28" rx="14" fill="#CBD5E1"/>
+
+    <!-- Digital status screen -->
+    <rect x="410" y="235" width="180" height="50" rx="6" fill="#064E3B"/>
+    <text x="500" y="258" font-family="monospace" font-size="11" fill="#34D399" text-anchor="middle">GRAVITY QUALITY ASSURED</text>
+    <text x="500" y="274" font-family="monospace" font-size="9" fill="#A7F3D0" text-anchor="middle">ESTABLISHED 2018 • VADAKKENCHERRY</text>
+  </g>
+</svg>

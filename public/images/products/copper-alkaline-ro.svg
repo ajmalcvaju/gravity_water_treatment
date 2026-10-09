@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="copperGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="blackCabinet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+  <circle cx="250" cy="250" r="190" fill="#FEF3C7" opacity="0.5"/>
+
+  <g transform="translate(130, 50)">
+    <!-- Sleek Matte Black & Copper Cabinet -->
+    <rect x="0" y="0" width="240" height="380" rx="20" fill="url(#blackCabinet)" stroke="#B45309" stroke-width="3"/>
+    
+    <!-- Copper Trim Accent Ring -->
+    <rect x="15" y="15" width="210" height="70" rx="12" fill="#030712" stroke="url(#copperGrad)" stroke-width="2"/>
+    <text x="120" y="42" font-family="'Inter', sans-serif" font-weight="900" font-size="15" fill="url(#copperGrad)" text-anchor="middle">GRAVITY ALKALINE</text>
+    <text x="120" y="62" font-family="'Inter', sans-serif" font-weight="700" font-size="9" fill="#FDE68A" text-anchor="middle" letter-spacing="2">ACTIVE COPPER + ZINC • pH 8.5</text>
+
+    <!-- Mineral Tank Window with Amber/Copper Glow -->
+    <rect x="25" y="105" width="190" height="200" rx="14" fill="#1E293B" stroke="#475569"/>
+    <circle cx="120" cy="180" r="45" fill="url(#copperGrad)" opacity="0.3"/>
+    <text x="120" y="175" font-family="sans-serif" font-size="28" font-weight="bold" fill="#F59E0B" text-anchor="middle">Cu⁺⁺</text>
+    <text x="120" y="198" font-family="sans-serif" font-size="10" font-weight="bold" fill="#FDE68A" text-anchor="middle">COPPER ENRICHED</text>
+    <text x="120" y="240" font-family="sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Immunity &amp; Digestion Support</text>
+
+    <!-- Dispenser -->
+    <circle cx="120" cy="335" r="16" fill="url(#copperGrad)"/>
+    <rect x="117" y="335" width="6" height="15" rx="3" fill="#FFFFFF"/>
+  </g>
+</svg>

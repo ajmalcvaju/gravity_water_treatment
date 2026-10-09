@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+  <circle cx="250" cy="250" r="190" fill="#E0F2FE" opacity="0.6"/>
+  <g transform="translate(50, 70)">
+    <!-- Base SS Frame -->
+    <rect x="20" y="290" width="360" height="20" rx="4" fill="#64748B"/>
+    <!-- Dual FRP Vessels -->
+    <rect x="40" y="80" width="50" height="210" rx="10" fill="#0284C7"/>
+    <rect x="100" y="80" width="50" height="210" rx="10" fill="#0369A1"/>
+    <!-- 20-inch Jumbo Filter -->
+    <rect x="165" y="140" width="35" height="150" rx="6" fill="#38BDF8"/>
+    <!-- Vertical High Pressure Pump -->
+    <rect x="215" y="140" width="32" height="150" rx="4" fill="#94A3B8"/>
+    <circle cx="231" cy="120" r="16" fill="#0284C7"/>
+    <!-- Dual Membrane Housings 4040 -->
+    <rect x="260" y="90" width="130" height="32" rx="16" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+    <text x="325" y="110" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0A2540" text-anchor="middle">RO MEMBRANE 1</text>
+    <rect x="260" y="130" width="130" height="32" rx="16" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+    <text x="325" y="150" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0A2540" text-anchor="middle">RO MEMBRANE 2</text>
+    <!-- PLC Panel -->
+    <rect x="260" y="180" width="130" height="100" rx="6" fill="#1E293B"/>
+    <rect x="270" y="195" width="110" height="25" rx="3" fill="#064E3B"/>
+    <text x="325" y="211" font-family="monospace" font-size="9" fill="#34D399" text-anchor="middle">500 LPH • ACTIVE</text>
+    <circle cx="285" cy="245" r="9" fill="#FFF"/>
+    <circle cx="310" cy="245" r="9" fill="#FFF"/>
+    <circle cx="335" cy="245" r="9" fill="#FFF"/>
+  </g>
+</svg>

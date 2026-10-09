@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ss304" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="30%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+  <circle cx="250" cy="250" r="190" fill="#E0F2FE" opacity="0.6"/>
+
+  <g transform="translate(140, 50)">
+    <!-- Stainless Steel Body Cabinet -->
+    <rect x="0" y="0" width="220" height="380" rx="8" fill="url(#ss304)" stroke="#64748B" stroke-width="2"/>
+    <!-- Top Drip/Splash Guard Rim -->
+    <rect x="-10" y="0" width="240" height="20" rx="4" fill="#475569"/>
+    <!-- Top Basin Sink -->
+    <rect x="10" y="25" width="200" height="25" rx="6" fill="#F1F5F9" stroke="#94A3B8"/>
+    <!-- Dual Dispensing Taps (1 Cold, 1 Normal) -->
+    <g transform="translate(60, 60)">
+      <rect x="0" y="0" width="12" height="35" rx="3" fill="#0284C7"/>
+      <circle cx="6" cy="35" r="8" fill="#38BDF8"/>
+      <text x="6" y="55" font-family="sans-serif" font-size="8" font-weight="bold" fill="#0369A1" text-anchor="middle">COLD</text>
+    </g>
+    <g transform="translate(140, 60)">
+      <rect x="0" y="0" width="12" height="35" rx="3" fill="#64748B"/>
+      <circle cx="6" cy="35" r="8" fill="#94A3B8"/>
+      <text x="6" y="55" font-family="sans-serif" font-size="8" font-weight="bold" fill="#475569" text-anchor="middle">NORMAL</text>
+    </g>
+    <!-- Louver Air Ventilation Grill (Middle/Lower) -->
+    <g transform="translate(30, 150)">
+      <rect x="0" y="0" width="160" height="170" rx="6" fill="#334155"/>
+      <line x1="20" y1="20" x2="140" y2="20" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="40" x2="140" y2="40" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="60" x2="140" y2="60" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="80" x2="140" y2="80" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="100" x2="140" y2="100" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="120" x2="140" y2="120" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="20" y1="140" x2="140" y2="140" stroke="#94A3B8" stroke-width="3"/>
+    </g>
+    <!-- Brand Emboss -->
+    <rect x="40" y="335" width="140" height="24" rx="4" fill="#0F172A"/>
+    <text x="110" y="351" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#38BDF8" text-anchor="middle">GRAVITY 40/80L SS-304</text>
+  </g>
+</svg>

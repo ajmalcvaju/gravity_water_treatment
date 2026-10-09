@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="softBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="20" fill="#F8FAFC"/>
+  <circle cx="250" cy="250" r="190" fill="#EDE9FE" opacity="0.5"/>
+
+  <!-- Cation Resin FRP Vessel (Left) -->
+  <g transform="translate(130, 70)">
+    <rect x="35" y="10" width="30" height="30" rx="4" fill="#0F172A"/>
+    <circle cx="50" cy="18" r="6" fill="#10B981"/>
+    <text x="50" y="32" font-family="sans-serif" font-size="6" fill="#FFF" font-weight="bold" text-anchor="middle">AUTO VALVE</text>
+    <!-- Dome -->
+    <path d="M 10,70 Q 50,30 90,70 Z" fill="url(#softBlue)"/>
+    <rect x="10" y="68" width="80" height="250" fill="url(#softBlue)"/>
+    <path d="M 0,315 L 100,315 L 90,340 L 10,340 Z" fill="#0F172A"/>
+    <rect x="20" y="160" width="60" height="35" rx="4" fill="#FFFFFF"/>
+    <text x="50" y="177" font-family="sans-serif" font-size="8" font-weight="bold" fill="#6D28D9" text-anchor="middle">ION-EXCHANGE</text>
+    <text x="50" y="188" font-family="sans-serif" font-size="7" fill="#334155" text-anchor="middle">RESIN VESSEL</text>
+  </g>
+
+  <!-- Salt Brine Tank (Right) -->
+  <g transform="translate(260, 160)">
+    <rect x="10" y="0" width="110" height="190" rx="12" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+    <rect x="5" y="0" width="120" height="20" rx="6" fill="#334155"/>
+    <text x="65" y="95" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle">BRINE TANK</text>
+    <text x="65" y="115" font-family="sans-serif" font-size="9" fill="#64748B" text-anchor="middle">Salt Regeneration</text>
+    <circle cx="65" cy="140" r="14" fill="#7C3AED" opacity="0.2"/>
+    <text x="65" y="144" font-family="sans-serif" font-size="10" font-weight="bold" fill="#6D28D9" text-anchor="middle">NaCl</text>
+  </g>
+
+  <!-- Connecting brine suction tube -->
+  <path d="M 205,100 L 290,100 L 290,170" stroke="#7C3AED" stroke-width="4" fill="none"/>
+</svg>
